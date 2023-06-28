@@ -1,0 +1,128 @@
+body {
+    background-image: url("images/basketball-background.webp");
+}
+.digital-font {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container {
+    text-align: center;
+    background-color: rgba(28, 5, 59, 0.863);
+    background-size: cover;
+    width: 800px;
+    height: 580px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.top {
+    
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+span {
+    color: rgb(241, 8, 8);
+}
+#real-time {
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+#match-date {
+    background-color: black;
+    margin-top: 5px;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+#match-time {
+    background-color: black;
+    margin-top: 5px;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 3px;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h1, h2, h3 {
+    border-radius: 5px;
+    color: azure;
+    margin: 10px;
+    
+}
+#home-score {
+    height: 100px;
+    width: 120px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    border: 3px greenyellow solid;
+    background-color: black;
+    font-size: 55px;
+}
+#period-number {
+    border: 3px greenyellow solid;
+    background-color: black;
+}
+#away-score {
+    height: 100px;
+    width: 120px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    border: 3px greenyellow solid;
+    background-color: black;
+    font-size: 55px; 
+}
+.period {
+    margin-top: 50px;
+}
+.bottom {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: black;
+}
+.stopwatch {
+    width: 300px;
+    size: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+}
+#start-timer, #pause-timer, #reset-timer {
+    border: 5px solid none;
+    border-radius: 10px;
+    width: 80px;
+    padding: 5px;
+    font-size: larger;
+    font-weight: bold;
+}
+#team-leading {
+    background-color: black;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    color: aliceblue;
+    font-size: larger;
+}
+#start-timer {
+    background-color: rgba(240, 6, 240, 0.781);
+}
+#pause-timer {
+    background-color: rgba(10, 67, 172, 0.384);
+}
+#reset-timer {
+    background-color: rgba(21, 206, 144, 0.541);
+}

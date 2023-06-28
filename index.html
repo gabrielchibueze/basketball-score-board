@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css"/>
+        <title>Basketball Timer</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">    </head>
+    <body>
+        <div class="container">
+            <div class="top">
+                <h1>Basketball Game</h1>
+                <h2>United Kingdom <span>Vs</span> United States</h2>
+                <h2 id="match-date" class="digital-font">Match date: </h2>
+                <h3 id="time" class="digital-font">Time: </h3>
+            </div>
+            <div class="middle">
+                <div class="home">
+                    <h1>HOME</h1>
+                    <h1 id="home-score" class="digital-font">0</h1>
+                    <button id="add1" onclick="incrementHome(1)">+1</button>
+                    <button id="add2" onclick="incrementHome(2)">+2</button>
+                    <button id="add3" onclick="incrementHome(3)">+3</button>
+                </div>
+                <div class="period">
+                    <h3 class="match-time" class="digital-font">00:00:00:000</h3>
+                    <h1>Period</h1>
+                    <h1 id="period-number" class="digital-font">3</h1>
+                </div>
+                <div class="away">
+                    <h1>AWAY</h1>
+                    <h1 id="away-score" class="digital-font">0</h1>
+                    <button id="add1" onclick="incrementAway(1)">+1</button>
+                    <button id="add2" onclick="incrementAway(2)">+2</button>
+                    <button id="add3" onclick="incrementAway(3)">+3</button>
+                </div>
+            </div>
+            <div class="bottom">
+                <button onclick="leadingTeam()" id="team-leading"> Click to see the Leading Team</button>
+            </div>
+            <div class="stopwatch" >
+                <button id="pause-timer">Pause</button>
+                <button id="start-timer">Start</button>
+                <button id="reset-timer">Reset</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
